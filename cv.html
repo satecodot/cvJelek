@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.min.js"></script>
+    <title>Template</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+    <style>
+        h1{
+            font-family: Dosis;
+            font-size: 2cm;
+            text-align: center;
+            color: black;
+        }
+        h2{
+            font-family: Dosis;
+            font-size: 30px;
+            text-align: left;
+            color: black
+        }
+        p{
+            font-family: Dosis;
+            text-align: left;
+            font-size: 30px;
+            color: black;
+            
+        }
+        li{
+            font-family: Dosis;
+            text-align: left;
+            font-size: 1cm;
+            color: black
+            
+        }
+        body{
+            color: white;
+            font-family: Dosis;
+            text-align: center;
+            
+        }
+
+    #header {
+        display: grid;
+        grid-template-columns: 31% 35.5% 30%;
+        max-width: 2500px;
+        margin: 0 auto ;
+        grid-gap: 10px;      
+    }
+    #header div{
+        background: lightblue;
+        padding: 30px;
+    }
+    #header div:nth-child(even){
+        background: white;
+    }
+
+    #account {
+        display: grid;
+        grid-template-columns: 32.5% 66.6%;
+        max-width: 1920px;
+        margin: 0 auto;
+        grid-gap: 0px
+    }
+    #account div{
+        background: white;
+        padding: 0px;
+    }
+    #account div:nth-child(even){
+        background: white
+    }
+
+    #content{
+        display: grid;
+        /* grid-template-columns: 33.3% 33.3% 33.3% ; */
+        grid-template-columns: 20% 20% 60%;
+        /* grid-template-columns: repeat(9, 2fr); */
+        max-width: 1920px;
+        margin: 0 auto;
+        grid-gap: 0px;
+        grid-auto-columns: 100px
+        
+    }
+    #content div{
+        background: white;
+        padding: 0px;
+    }
+    #content div:nth-child(even){
+        background: white;
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 1920px;
+        grid-gap: 0px;
+        grid-auto-columns: 100px;
+        margin: 0 auto;
+    }
+    #footer div{
+        background: white;
+        padding: 0px;
+    }
+    #footer div:nth-child(even){
+        background: pink;
+    }
+    p.one{
+        border-style: solid;
+        border-width: thick
+    }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div><h1>RESUME</h1></div>
+        <div><h1>Andi Fernandi</h1></div>
+        <div><ul>
+            <li><b>Day of Birth : 9th June 1992</b></li><br>
+            <li><b>Nationality : Indonesia</b></li><br>
+            <li><b>Status : Single</b></li>
+        </ul></div>
+        </div><hr><hr>
+    <div id="account">
+        <div class="account_picture"><img src="profile.jpg" alt="" width="300px"></div>
+        <div class="account_detail"><p>Andi is very interested about technology and uses its as a tool to develop himself and
+                to add knowledge. Andi is very glad to work with computers. When Andi was not at the
+                computer , Andi was interested going on discussion. Especially, regarding knowledge.
+                Andi has a value that is instilled in him that called OSIT ! (Original , Solid ,
+                Improvement , and Think Different).</p></div>
+    </div><br><hr><hr>
+    <div id="content">
+        <div class="one"><h2>Education</h2></div>
+        <div class="two"><img src="https://upload.wikimedia.org/wikipedia/id/4/49/Logo-its-biru-transparan.png" alt="" width="350px"></div>
+        <div class="three"><p>Andi has graduated as bachelor of engineering from Institut Teknologi
+                Sepuluh Nopember Surabaya (ITS). Andi's GPA is 3.21 out of 4.</p></div>
+        <div class="four"><h2>Job Experience</h2></div>
+        <div class="five"><img src="https://media-private.canva.com/MAB2xD9Zxq8/1/thumbnail.png?response-expires=Wed%2C%2021%20Feb%202018%2005%3A22%3A57%20GMT&AWSAccessKeyId=AKIAJWF6QO3UH4PAAJ6Q&Expires=1519190577&Signature=d7sil6sRb1aIWakYP6hsx6huKQE%3D" alt="" width="300px"></div>
+        <div class="six"><p>Andi has worked in education business as a co-founder. Andi has handled Marketing
+                Strategies , improving Brand-Awareness , and strengthen internal and external
+                relationships. Andi's Role in integrating existing systems in this business can be
+                assessed by students's achievement that has reached 98 % in 3 consecutive years who
+                has been received by all schools according to their expectations.</p></div>
+        <div class="seven">7</div>
+        <div class="eight"><img src="https://media-private.canva.com/MAB1OVQLdBM/1/thumbnail.png?response-expires=Wed%2C%2021%20Feb%202018%2005%3A45%3A57%20GMT&AWSAccessKeyId=AKIAJWF6QO3UH4PAAJ6Q&Expires=1519191957&Signature=kH28ElwTKcxPtdd998ugXMWKFn4%3D" alt="" width="400px"></div>
+        <div class="nine"><p>Andi has worked on a business in the Cafe and Resto. Andi is worked by prioritize work
+                as the goal setter . Andi has handled Branding Strategy and reviews Internal
+                Management. Andi has implemented a work environment that emphasizes sharing
+                knowledge especially of ideas, innovation, and work smart as a success parameter of an
+                organization.</p></div>
+        <div class="nine"><h2> Professional Skill</h2></div>
+        <div class="sebelas">11</div>
+        <div class="duabelas"><img src="professional.png" alt="" width="600px"></div> 
+        <div class="tigabelas"><h2>Personal Skill</h2></div>
+        <div class="empatbelas">14</div>
+        <div class="limabelas"><img src="personal.png" alt="" width="600px"></div>
+        <div class="enambelas"><h2>Language</h2></div>
+        <div class="tujuhbelas">17</div>
+        <div class="delapanbelas"><img src="language.png" alt="" width="600px"></div>
+    </div><hr><hr>
+    <div id="footer">
+        <div class="footer_left"><img src="footer.png" alt="" width="600px"></div>
+        <div class="footer_right"></div>
+    </div>
+    <script>
+    </script>
+</body>
+</html>
